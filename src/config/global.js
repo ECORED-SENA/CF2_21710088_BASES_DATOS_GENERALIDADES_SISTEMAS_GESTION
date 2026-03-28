@@ -1,7 +1,8 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name: 'Modelado de bases de datos y construcción de esquemas relacionales.',
+    Description:
+      'Este componente profundiza en el modelado conceptual, lógico y físico de bases de datos, abordando modelos de datos, normalización, construcción del esquema relacional e introducción al lenguaje SQL. Proporciona las bases teóricas y prácticas necesarias para transformar requerimientos del dominio en estructuras relacionales eficientes y coherentes.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,12 +36,17 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Fundamentos de modelos de datos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto de modelo de datos',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.1',
+            titulo: 'Clasificación de los modelos de datos',
             hash: 't_1_1',
           },
         ],
@@ -45,14 +55,140 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Modelos de datos vigentes',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Estructura del modelo jerárquico',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Concepto y características del modelo de red',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Modelos actuales (NoSQL, multimodelo)',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Modelo conceptual de bases de datos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Concepto de modelo conceptual de datos',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Modelo entidad–relación (ER)',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Diagramas entidad–relación',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Modelamiento lógico y físico',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Definición de tablas, campos y atributos',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Tipos de claves: primaria, foránea y compuesta',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Diseño de índices',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Representación física del almacenamient5',
+            hash: 't_4_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Normalización de bases de datos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Concepto y objetivos de la normalización',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Primera, segunda y tercera forma normal',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Eliminación de redundancias y dependencias',
+            hash: 't_5_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Diseño estructural de la base de datos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Organización de la estructura de tablas',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Definición de relaciones entre tablas',
+            hash: 't_6_2',
+          },
+          {
+            numero: '6.3',
+            titulo: 'Integridad referencial',
+            hash: 't_6_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo: 'Introducción al lenguaje de consulta SQL',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '7.1',
+            titulo: '¿Qué es SQL y para qué sirve?',
+            hash: 't_7_1',
+          },
+          {
+            numero: '7.2',
+            titulo: 'Operaciones fundamentales de SQL',
+            hash: 't_7_2',
+          },
+        ],
       },
     ],
     subMenu: [
