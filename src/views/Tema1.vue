@@ -36,7 +36,7 @@
                   .col-lg-9.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-6")
                       .bg-color-17.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta01_1.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Entidades
                         p.card-text.text-center
                         | Objetos o conceptos del mundo real sobre los que se requiere almacenar información.
@@ -75,8 +75,6 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/nHjl83QvSUw?si=PYOSxqLdAk88V5nb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     //- Fin Video
     p(data-aos="fade-right") Esta clasificación no es estática. Evoluciona conforme surgen nuevas arquitecturas, necesidades de procesamiento masivo y enfoques híbridos de almacenamiento. En consecuencia, la elección de un modelo de datos depende del contexto organizacional, los requisitos de consistencia y escalabilidad, así como del tipo de información que se desea gestionar.
-
-
 </template>
 
 <script>
