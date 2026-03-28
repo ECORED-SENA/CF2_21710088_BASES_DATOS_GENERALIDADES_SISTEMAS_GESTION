@@ -35,3 +35,71 @@
 
 figcaption
   font-weight: normal
+
+/* Colores de fondo*/
+.bg-color
+  &-1
+    background-color: #C1A1F0 !important
+  &-2
+    background-color: #7FE5CF !important
+  &-3
+    background-color: #FFC94A !important    
+  &-4
+    background-color: #FF9800 !important
+  &-5
+    background-color: #E5E2D3 !important
+  &-6
+    background-color: #FFE9B5 !important
+  &-7
+    background-color: #E6D9F9 !important
+  &-8
+    background-color: #E5F9F5 !important
+  &-9
+    background-color: #FFF4DA !important
+  &-10
+    background-color: #5F4F77 !important
+  &-11
+    background-color: #3F7266 !important
+  &-12
+    background-color: #CBF4EB !important
+  &-13
+    background-color: #F4F3ED !important
+  &-14
+    background-color: #FFC94A !important
+  &-15
+    background-image: url(../assets/curso/fondos/fondo1.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+  &-16
+    background-image: url(../assets/curso/fondos/fondo2.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+  &-17
+    background-color: #FFF !important
+  
+/*Fin de Colores de fondo*/
+
+  /* Código para los carruseles */
+.carousel-bg .fas
+  &.fa-chevron-left, &.fa-chevron-right
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    width: 40px
+    height: 40px
+    background-color: $color-acento-contenido
+    border-radius: 50%
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+    color: #000
+    font-size: 16px
+  @media screen and (max-width: $bp-max-md)
+    background-color: transparent !important
+    box-shadow: none !important
+    font-size: 20px !important
+
+.bordes
+  border: 1px solid #CBD5E0 !important
+/*Fin Código para los carruseles */
+
+
