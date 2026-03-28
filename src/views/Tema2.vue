@@ -94,7 +94,7 @@
       .col-md-4.col-lg-3.d-flex.justify-content-center
         figure.mb-0
           img(src='@/assets/curso/tema2/img7.png' style="width: 450px").img-fluid
-        //- Inicio Tarjetas
+    //- Inicio Tarjetas
     .row(data-aos="fade-left")
       .col-sm-6.col-lg.mb-4.d-flex.flex-column
         .tarjeta.tarjeta--blanca.p-4.bordes.rounded.h-100

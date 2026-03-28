@@ -126,3 +126,73 @@ figcaption
 /*Fin Accordion*/
 
 
+/* Código para los subtítulos que tienen imagenes */
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+
+.titulo-con-imagen__fondo
+  background-color: $color-acento-contenido
+  border-radius: 10px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -20px
+  width: 50px
+
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 20px
+/* Fin Código para los subtítulos que tienen imagenes */
+
+/*Slideshows*/
+.bg-fondo
+  &-slider
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png") !important
+    background-position: bottom
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FF9800 !important
+.slyder-a__bullets__item--active 
+  background-color: #FF9800 !important
+  border-color: #FF9800
+.slyder-a__bullets__item
+  background-color: #FF9800
+  border: 1px solid #FF9800
+.bloque-texto-b.color-secundario:before
+  background-color: #CBE7E8
+.acordion__accion__btn--a
+  background-color: #FED401 !important
+.acordion__activo
+  background-color: #E6DCFB !important
+.acordion_titulo
+  color: #fff !important
+.tarjeta-numerada.color-primario
+  border-color: #F3F0EA
+  background-color: #F3F0EA
+.tarjeta-numerada.color-primario .tarjeta-numerada__numero
+  background-color: #FD9826
+.tarjeta-numerada__numero
+  top: 35%
+/*Slideshows*/
+
+
+/* Ajuste para botones de Slider en Móviles */
+@media (max-width: $bp-max-sm)
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 35px !important // Reduce el tamaño del círculo
+    height: 35px !important
+    background-size: 10px !important // Ajusta el tamaño de la flecha interna
+    opacity: 1 !important
+  
+  .slyder-a__bullets__item
+    width: 10px !important // Hace los puntos de navegación más pequeños
+    height: 10px !important
+    margin: 0 4px !important
+
+  .slyder-a__bullets
+    bottom: 10px !important // Los sube un poco para que no se corten
+
