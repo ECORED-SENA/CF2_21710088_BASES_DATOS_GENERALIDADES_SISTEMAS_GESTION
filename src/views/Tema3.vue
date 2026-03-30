@@ -240,10 +240,100 @@
                 img(src='@/assets/curso/tema3/img10.png', style="width: 100%")            
           //- Fin Tarjetas
           p.mb-5(data-aos="fade-left") Por ejemplo, un <b>Préstamo</b> no puede existir sin un <b>Usuario</b>, mientras que un <b>Usuario</b> puede existir sin realizar préstamos. Esta condición expresa una regla semántica del dominio antes que una restricción tecnológica. El modelo ER permite formalizar estas dependencias conceptuales con claridad, fortaleciendo la coherencia del diseño previo al modelamiento lógico.
-              
-                
-
-
+            Separador
+            //- Inicio Tema3.1
+            #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+              h2 3.2 Modelo entidad–relación (ER)
+            p.mb-5(data-aos="fade-left") El diagrama entidad–relación (ER) constituye la representación gráfica del modelo conceptual. No es un recurso ornamental, sino una <b>herramienta de análisis y validación.</b> Un diagrama correctamente estructurado permite comprobar la coherencia del sistema sin necesidad de recurrir a descripciones extensas.
+                .bloque-texto-g.bloque-texto-g--inverso.bg-color-1.p-3.p-sm-4.p-md-5.mb-3.mt-5(data-aos="fade-left")
+                  .bloque-texto-g__img(
+                    :style="{'background-image': `url(${require('@/assets/curso/tema3/img4.png')})`}"
+                  )
+                  .bloque-texto-g__texto.p-4
+                    p.mb-5 Existen diversas notaciones, como Chen, Barker,  <i>Crow’s Foot</i> y UML. Aunque presentan diferencias formales, todas comparten los mismos componentes esenciales: entidades, atributos, relaciones y cardinalidades. En la práctica profesional, la notación  <i>Crow’s Foot</i> es ampliamente utilizada en la documentación técnica asociada a motores como SQL Server y Oracle.
+                p.mb-5(data-aos="fade-left") <b>A continuación, se presenta un ejemplo típico con notación Crow’s Foot aplicado a un sistema de préstamos:</b>
+    .row.justify-content-center.mt-0.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 4.
+          span Ejemplo: sistema de préstamos
+        figure
+          img(src="@/assets/curso/tema3/img11.svg", alt="Infografía de diagrama entidad-relación sobre un sistema de préstamos con las entidades Usuario y Libro conectadas por la relación Préstamo. Incluye cardinalidad uno a muchos (1:N), indicando que un usuario puede tener muchos préstamos y que un libro puede aparecer en varios préstamos, pero cada préstamo corresponde a un solo libro.", style="width: 832px")
+    .row.mb-4.justify-content-center(data-aos="fade-left")
+      .col-8
+        p.mb-5 <b>En este esquema se identifican dos relaciones fundamentales:</b>
+      .row.justify-content-center.align-items-stretch
+        .col-md-4.bg-color-10.p-4.m-2.d-flex.align-items-center.justify-content-center.text-center.text-white
+          p.mb-5 Un <b>Usuario</b> puede tener muchos <b>Préstamos</b> (relación 1:N).
+        .col-md-4.bg-color-11.p-4.m-2.d-flex.align-items-center.justify-content-center.text-center.text-white
+          p.mb-5 Un <b>Libro</b> puede aparecer en muchos <b>Préstamos</b>, pero cada <b>Préstamo</b> se asocia a un único <b>Libro</b>.
+    p.mb-5(data-aos="fade-left") Más allá del ejemplo concreto, lo relevante es comprender la función analítica del diagrama ER. Sus principales aportes pueden sintetizarse así:
+    .row.bg-color-16
+      .col-12
+        .p-5
+          //- Inicio Tarjetas
+          .row(data-aos="fade-right")
+            .col-sm-6.col-lg.mb-4.d-flex.flex-column
+              .tarjeta.tarjeta--blanca.p-4.bordes.rounded-4.h-100
+                .row.justify-content-center.mb-3.align-items-center
+                  .col-7
+                    figure
+                      img(src='@/assets/curso/tema3/tarjeta02_1.svg')
+                h3.text-center Detección de errores conceptuales
+                p.text-center Permite identificar omisiones, redundancias o inconsistencias antes del diseño lógico.
+            .col-sm-6.col-lg.mb-4.d-flex.flex-column
+              .tarjeta.tarjeta--blanca.p-4.bordes.rounded-4.h-100
+                .row.justify-content-center.mb-3
+                  .col-7
+                    figure
+                      img(src='@/assets/curso/tema3/tarjeta02_2.svg')
+                h3.text-center Validación con expertos del dominio
+                p.text-center Facilita la discusión de reglas del negocio con personas no técnicas.
+            .col-sm-6.col-lg.mb-4.d-flex.flex-column
+              .tarjeta.tarjeta--blanca.p-4.bordes.rounded-4.h-100
+                .row.justify-content-center.mb-3
+                  .col-7
+                    figure
+                      img(src='@/assets/curso/tema3/tarjeta02_3.svg')
+                h3.text-center Base para el modelo relacional
+                p.text-center  Sirve como insumo directo para normalización y construcción de tablas.
+            .col-sm-6.col-lg.mb-4.d-flex.flex-column
+              .tarjeta.tarjeta--blanca.p-4.bordes.rounded-4.h-100
+                .row.justify-content-center.mb-3
+                  .col-7
+                    figure
+                      img(src='@/assets/curso/tema3/tarjeta02_4.svg')
+                h3.text-center Claridad estructural
+                p.text-center Reduce ambigüedades en la interpretación del sistema.
+          //- Fin Tarjetas
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Recomendaciones importantes
+    //- Título con imagen
+    p.mb-5(data-aos="fade-left") Aunque no existe un único estilo correcto, es recomendable aplicar criterios de coherencia y claridad:
+    .row.justify-content-center.g-0.align-items-stretch.mb-3
+      .col-md-8.col-lg-5.bg-color-6.p-4.p-md-5.d-flex.align-items-center
+          ul.lista-ul.mb-0
+            li.d-flex
+              i.fas.fa-check-circle.me-3.mt-1(style="color:#AD9721")
+              p.mb-0 Utilizar nombres en singular (Autor en lugar de Autores).
+            li.d-flex
+              i.fas.fa-check-circle.me-3.mt-1(style="color:#AD9721")
+              p.mb-0 Representar únicamente los elementos esenciales, evitando sobrecargar el diagrama.
+            li.d-flex
+              i.fas.fa-check-circle.me-3.mt-1(style="color:#AD9721")
+              p.mb-0 Confirmar las cardinalidades con expertos del dominio.
+            li.d-flex
+              i.fas.fa-check-circle.me-3.mt-1(style="color:#AD9721")
+              p.mb-0 Documentar reglas de negocio que no puedan expresarse mediante la notación gráfica.
+      .col-md-4.col-lg-3
+        figure.mb-0.h-100
+          img.w-100.h-100(src='@/assets/curso/tema3/img12.png' style="object-fit: cover; object-position: center;")
+    p.mb-5(data-aos="fade-left") El diagrama ER cumple una doble función: es un instrumento técnico y, al mismo tiempo, una herramienta de comunicación. Un diseño conceptual sólido reduce significativamente problemas en las fases posteriores de modelamiento lógico, normalización e implementación.
 </template>
 
 <script>

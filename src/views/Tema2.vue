@@ -97,7 +97,7 @@
     //- Inicio Tarjetas
     .row(data-aos="fade-left")
       .col-sm-6.col-lg.mb-4.d-flex.flex-column
-        .tarjeta.tarjeta--blanca.p-4.bordes.rounded.h-100
+        .tarjeta.tarjeta--blanca.p-4.bordes.rounded-4.h-100
           .row.justify-content-center.mb-3.align-items-center
             .col-7
               figure
@@ -105,7 +105,7 @@
           h3.text-center Flexibilidad elevada
           p.text-center Permite modelar relaciones complejas y múltiples entre registros.
       .col-sm-6.col-lg.mb-4.d-flex.flex-column
-        .tarjeta.tarjeta--blanca.p-4.bordes.rounded.h-100
+        .tarjeta.tarjeta--blanca.p-4.bordes.rounded-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure
@@ -113,7 +113,7 @@
           h3.text-center Acceso navegacional
           p.text-center El sistema accede a los datos siguiendo enlaces preestablecidos entre registros.
       .col-sm-6.col-lg.mb-4.d-flex.flex-column
-        .tarjeta.tarjeta--blanca.p-4.bordes.rounded.h-100
+        .tarjeta.tarjeta--blanca.p-4.bordes.rounded-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure
@@ -121,7 +121,7 @@
           h3.text-center Eficiencia de consulta
           p.text-center  El acceso directo a relaciones reduce costos computacionales en entornos estructurados.
       .col-sm-6.col-lg.mb-4.d-flex.flex-column
-        .tarjeta.tarjeta--blanca.p-4.bordes.rounded.h-100
+        .tarjeta.tarjeta--blanca.p-4.bordes.rounded-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure
@@ -144,7 +144,7 @@
           img(src="@/assets/curso/tema2/img8.png", alt="").img400.m-auto
       .col-lg-9
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
-          .row(titulo="Bases documentales )")
+          .row(titulo="Bases documentales ")
               p.mb-4 Almacenan datos en documentos JSON o BSON. Son adecuadas cuando los registros no comparten exactamente la misma estructura. La documentación oficial de MongoDB (2026) resalta su aplicabilidad en aplicaciones web, analítica y microservicios.              
           .row(titulo="Almacenes clave–valor")
               p.mb-4 Estructuras simples orientadas a alto rendimiento. Constituyen la base de sistemas de caché como  <i>Redis</i>.
