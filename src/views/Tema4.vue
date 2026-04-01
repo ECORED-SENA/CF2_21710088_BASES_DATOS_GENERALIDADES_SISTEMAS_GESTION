@@ -114,7 +114,7 @@
     //- Fin Tabla
     .row.mb-5.justify-content-center
       .col-10.bg-color-7
-        p.p-4 Esta estructura garantiza identificación única, evita duplicidad en el documento y establece obligatoriedad en campos esenciales. No existe una única configuración correcta. Lo fundamental es que la tabla represente fielmente la semántica del dominio, preserve la coherencia con el modelo conceptual y facilite el uso operativo futuro, tanto en consultas como en generación de reportes y mantenimiento del sistema.
+        p.p-4 Esta estructura garantiza identificación única, evita duplicidad en el documento y establece obligatoriedad en campos esenciales. No existe una única configuración correcta. Lo fundamental es que la tabla represente fielmente la <b>semántica del dominio</b>, preserve la coherencia con el modelo conceptual y facilite el uso operativo futuro, tanto en consultas como en generación de reportes y mantenimiento del sistema.
     Separador
     //- Inicio Tema 1.1
     .row.mt-5
@@ -271,7 +271,7 @@
                     p.mb-0 Los índices emplean estructuras jerárquicas para acelerar la búsqueda.
                   li.d-flex
                     i.fas.fa-check-circle.me-3.mt-1(style="color:#AD9721")
-                    p.mb-0 La información más utilizada se mantiene en memoria intermedia (buffer pool).
+                    p.mb-0 La información más utilizada se mantiene en memoria intermedia (<i>buffer pool</i>).
                   li.d-flex
                     i.fas.fa-check-circle.me-3.mt-1(style="color:#AD9721")
                     p.mb-0 Los registros se agrupan en archivos físicos administrados por el motor.
@@ -305,10 +305,10 @@
                         img(src='@/assets/curso/tema4/tarjeta02_2.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Cómo se almacenan los datos
                         p.card-text.text-center
-                        | Los SGBD utilizan páginas, bloques, páginas de buffer y buffers de memoria.
+                        | Los SGBD utilizan páginas, bloques, páginas de  <i>buffer</i> y  <i>buffers</i> de memoria.
                       .bg-color-17.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema4/tarjeta02_3.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                        h4.card-title.text-center.mb-3 Buffer
+                        h4.card-title.text-center.mb-3  <i>Buffer</i>
                         p.card-text.text-center
                         | Espacio temporal en memoria para gestionar la lectura y escritura de datos.
                       .bg-color-17.tarjeta.p-4.h-100.shadow-app.text-center.bordes
@@ -409,7 +409,7 @@
                       figure
                         img(src='@/assets/curso/tema4/img12.png', style="max-width: 250px", alt='', data-aos="zoom-in").m-auto
     //- Fin carrusel
-    p.mb-5(data-aos="fade-left") Amazon Relational Database Service (2026) y Microsoft (2026) explican que la optimización del almacenamiento puede mejorar el rendimiento incluso sin modificar una sola línea de SQL. Esto demuestra que el diseño físico tiene un impacto directo en el comportamiento del sistema. En bases de datos críticas, estas decisiones pueden determinar si una consulta tarda milisegundos o varios segundos, lo que incide directamente en la experiencia del usuario y en la continuidad operativa de la organización.
+    p.mb-5(data-aos="fade-left")  <i>Amazon Relational Database Service</i> (2026) y Microsoft (2026) explican que la optimización del almacenamiento puede mejorar el rendimiento incluso sin modificar una sola línea de SQL. Esto demuestra que el diseño físico tiene un impacto directo en el comportamiento del sistema. En bases de datos críticas, estas decisiones pueden determinar si una consulta tarda milisegundos o varios segundos, lo que incide directamente en la experiencia del usuario y en la continuidad operativa de la organización.
 </template>
 
 <script>

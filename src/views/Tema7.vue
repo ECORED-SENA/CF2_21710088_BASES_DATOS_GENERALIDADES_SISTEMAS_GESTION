@@ -20,11 +20,11 @@
         p.mb-0 Esta característica lo convierte en un lenguaje accesible para analistas, consultores, administradores y desarrolladores. Además, constituye un estándar implementado por prácticamente todos los Sistemas Gestores de Bases de Datos Relacionales (SGBDR), aunque cada proveedor puede incorporar extensiones propias.
     p(data-aos="fade-left") SQL no opera de manera aislada: depende directamente de la estructura diseñada previamente. Por ello, comprender el modelo relacional es condición indispensable para formular consultas coherentes y eficientes.
     Separador
-    //- Inicio Tema 6.1
+    //- Inicio Tema 7.1
     .row.mt-5
         #t_7_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 7.1 ¿Qué es SQL y para qué sirve?
-    //- FIn Tema 5.1
+    //- FIn Tema 7.1
     p(data-aos="fade-left") A continuación, se presenta un pódcast  orientado a comprender los fundamentos del lenguaje SQL y su aplicación en la consulta de información dentro de bases de datos relacionales.
     .row.bg-color-15
       .col-12
@@ -43,7 +43,7 @@
                         h5.mb-3.fw-bold ¿Qué es SQL y para qué sirve?
                         TarjetaAudio.color-primario(
                           texto="" 
-                          :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                          :audio="require('@/assets/componentes/audios/podcast.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")        
@@ -51,11 +51,11 @@
                 figure.mb-0
                   img(src='@/assets/curso/tema7/img4.svg')
           //- Fin Podcast
-          //- Inicio Tema 6.1
+          //- Inicio Tema 7.2
           .row.mt-5
               #t_7_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
                 h2 7.2	Operaciones fundamentales de SQL
-          //- FIn Tema 5.1
+          //- FIn Tema 7.2
           p(data-aos="fade-left") A continuación, se presentan las operaciones esenciales del lenguaje SQL orientadas a la consulta de datos dentro del modelo relacional. Los siguientes ejemplos no constituyen un tutorial exhaustivo. Su propósito es ilustrar cómo funcionan las consultas dentro de una base de datos estructurada.
           //- Inicio Accordion
           .bg--img_03.mt-5
@@ -103,8 +103,6 @@
                         img(src='@/assets/curso/tema7/query7.svg',  style="width: 300px")
                     p Algunos motores utilizan TOP (SQL Server) o FETCH FIRST (Oracle), pero el principio es universal.
           //- Fin Accordion
-
-
 </template>
 
 <script>

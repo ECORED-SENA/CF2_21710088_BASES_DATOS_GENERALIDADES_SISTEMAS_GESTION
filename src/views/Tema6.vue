@@ -156,8 +156,14 @@
     .row.bg-color-15
       .col-12
         .p-5
-          p(data-aos="fade-left") Por ejemplo, un <b>Usuario</b> puede tener varios <b>Préstamos</b>, pero cada préstamo pertenece a un único usuario (relación 1:N). En cambio, la relación entre <b>Libro</b> y <b>Autor</b> suele ser N:M, lo que exige una tabla intermedia como <b>LIBRO_AUTOR.</b>
-              Separador        
+          p.mb-3(data-aos="fade-left") Por ejemplo, un <b>Usuario</b> puede tener varios <b>Préstamos</b>, pero cada préstamo pertenece a un único usuario (relación 1:N). En cambio, la relación entre <b>Libro</b> y <b>Autor</b> suele ser N:M, lo que exige una tabla intermedia como <b>LIBRO_AUTOR.</b>
+              .bloque-texto-g.bloque-texto-g.bg-color-2.p-3.p-sm-4.p-md-5.mb-3.p(data-aos="fade-left")
+                .bloque-texto-g__img(
+                  :style="{'background-image': `url(${require('@/assets/curso/tema6/img2.png')})`}"
+                )
+                .bloque-texto-g__texto.p-4
+                  p.mb-0 El diseño adecuado de las relaciones facilita consultas eficientes, evita duplicidad innecesaria y permite representar con precisión reglas del negocio que pueden evolucionar con el tiempo. Un error frecuente consiste en considerar las relaciones como simples conexiones gráficas. En realidad, representan estructuras semánticas profundas: pueden expresar propiedad, dependencia, temporalidad o composición, según el contexto del dominio.
+              Separador
               //- Inicio Tema 6.3
               .row.mt-5
                   #t_6_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")

@@ -217,7 +217,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/21710088_CF2_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -241,14 +241,108 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Atributo',
+      significado:
+        'Característica que describe a una entidad; en el modelo lógico se implementa como una columna de tabla.',
+    },
+    {
+      termino: 'Clave foránea (FK)',
+      significado:
+        'Campo que referencia una clave primaria de otra tabla, garantizando integridad referencial.',
+    },
+    {
+      termino: 'Clave primaria (PK)',
+      significado:
+        'Atributo o conjunto de atributos que identifica de manera única un registro dentro de una tabla.',
+    },
+    {
+      termino: 'Data warehouses',
+      significado:
+        'Bodega electrónica donde una empresa u organización almacena grandes volúmenes de información, generalmente provenientes de diversas fuentes y bases de datos.',
+    },
+    {
+      termino: 'Dominio',
+      significado:
+        'Conjunto de valores o atributos que comparten un significado o propósito común dentro de la gestión de datos; representa el límite del sistema.',
+    },
+    {
+      termino: 'Entidad',
+      significado:
+        'Objeto o concepto relevante para el dominio, representado en el modelo conceptual y posteriormente convertido en tabla.',
+    },
+    {
+      termino: 'Grafos',
+      significado:
+        'Representaciones que modelan metadatos complejos o conceptos de dominio en un formato estandarizado para aportar semántica al procesamiento del lenguaje natural.',
+    },
+    {
+      termino: 'Índice',
+      significado:
+        'Estructura física auxiliar que acelera la búsqueda de datos en una tabla.',
+    },
+    {
+      termino: 'JSONB',
+      significado:
+        'Tipo de datos de PostgreSQL similar a JSON que se utiliza para almacenar datos semiestructurados.',
+    },
+    {
+      termino: 'N:M',
+      significado:
+        'Notación utilizada para denominar una relación de muchos a muchos; comúnmente asociada con 1:N, que indica una relación uno a muchos.',
+    },
+    {
+      termino: 'Paralelismo',
+      significado:
+        'Contexto en el que se emplean varios discos duros para mejorar el rendimiento o la disponibilidad del sistema.',
+    },
+    {
+      termino: 'Relación',
+      significado:
+        'Vínculo entre dos entidades, expresado mediante cardinalidades y, en el modelo relacional, mediante claves foráneas.',
+    },
+    {
+      termino: 'Validación',
+      significado:
+        'Comprobación y limpieza de los datos para evitar que ingresen incorrectos, incompletos o irrelevantes a la base de datos, garantizando su fiabilidad.',
+      ificado:
+        'Contexto en el que se emplean varios discos duros para mejorar el rendimiento o la disponibilidad del sistema.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Amazon Web Services. (2026). Introducción a Amazon Relational Database Service (Amazon RDS).',
+      link:
+        'https://docs.aws.amazon.com/es_es/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.html',
+    },
+    {
+      referencia:
+        'Coronel, C., y Morris, S. (2023). Database systems: Design, implementation, and management. Cengage Learning.',
+      link: 'https://faculty.cengage.com/works/9780357673034',
+    },
+    {
+      referencia:
+        'Elmasri, R., y Navathe, S. B. (2007). Fundamentals of database systems (7th ed.). Pearson.',
       link: '',
+    },
+    {
+      referencia: 'Microsoft. (2026). Documentación técnica de SQL Server.',
+      link:
+        'https://learn.microsoft.com/es-es/sql/sql-server/?view=sql-server-ver17',
+    },
+    {
+      referencia: 'MongoDB. (2026). Documentación de MongoDB.',
+      link: 'https://www.mongodb.com/es/docs/',
+    },
+    {
+      referencia: 'Oracle Corporation. (2025). Database concepts.',
+      link:
+        'https://docs.oracle.com/en/database/oracle/oracle-database/19/cncpt/index.html',
+    },
+    {
+      referencia:
+        'Chen, P. P.-S. (1976). The entity-relationship model—Toward a unified view of data. ACM Transactions on Database Systems, 1(1), 9–36.',
+      link: 'https://doi.org/10.1145/320434.320440',
     },
   ],
   creditos: [

@@ -20,36 +20,35 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Evaluar sobre los fundamentos del modelado conceptual, lógico y físico, la normalización de bases de datos y las operaciones básicas del lenguaje SQL.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: 'El modelo entidad–relación pertenece al nivel:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Físico.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Conceptual.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'De índice.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Transaccional.',
               esCorrecta: false,
             },
           ],
@@ -58,29 +57,28 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+          texto: 'Una entidad se convierte en:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Un índice.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Una tabla.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Un disparador.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Un procedimiento almacenado.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +87,28 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: 'Un atributo multivaluado debe representarse como:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Un campo tipo lista.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Una columna con valores separados por comas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Una tabla independiente relacionada.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Un índice compuesto.',
               esCorrecta: false,
             },
           ],
@@ -119,29 +117,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: 'Una clave primaria debe caracterizarse por:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Aceptar valores duplicados.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Cambiar frecuentemente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Ser siempre compuesta.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Ser única y estable.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +147,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto: 'La primera forma normal exige:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'La primera forma normal exige:',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Separar claves compuestas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Que todos los valores sean atómicos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Usar índices en todas las columnas.',
               esCorrecta: false,
             },
           ],
@@ -180,29 +177,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: 'Una relación N:M se implementa mediante:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Dos claves primarias.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Una tabla intermedia.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Duplicación de datos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Un índice único.',
               esCorrecta: false,
             },
           ],
@@ -211,29 +207,28 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: 'Una dependencia funcional incorrecta ocasiona:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Mayor velocidad.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Menos consultas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Anomalías de actualización.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Índices innecesarios.',
               esCorrecta: false,
             },
           ],
@@ -242,29 +237,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: 'La eliminación de redundancias busca:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Replicar datos para mayor seguridad.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Evitar inconsistencias en la información.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Reducir el número de tablas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Aumentar el tamaño del modelo.',
               esCorrecta: false,
             },
           ],
@@ -273,20 +267,29 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: 'La integridad referencial garantiza que:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'No existan registros referenciados sin correspondencia.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Dos tablas tengan el mismo número de filas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Todas las claves sean compuestas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Los índices se actualicen automáticamente.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +297,28 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+          texto: 'SQL es un lenguaje:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Imperativo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Orientado a objetos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Declarativo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Procedimental avanzado.',
               esCorrecta: false,
             },
           ],
@@ -315,20 +327,29 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: 'La instrucción para filtrar registros es:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: '<i>ORDER BY.</i>',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: '<i>LIMIT.</i>',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '<i>WHERE.</i>',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: '<i>CREATE.</i>',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -336,19 +357,28 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: 'La sintaxis  <i>SELECT * FROM</i> tabla significa:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Devolver todas las columnas.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Filtrar información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ordenar resultados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Borrar datos.',
               esCorrecta: false,
             },
           ],
@@ -357,20 +387,29 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: 'El operador  <i>LIKE</i> se utiliza para:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Comparaciones exactas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Ordenamiento ascendente.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Limitar el número de registros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Búsquedas por patrones.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -379,19 +418,30 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Cuál de las siguientes opciones describe mejor el propósito del modelo lógico?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Representar los datos con detalles físicos del motor.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Traducir el modelo conceptual en tablas y claves sin depender del SGBD.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Definir los índices que usarán las consultas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Administrar permisos y roles de usuarios.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -400,18 +450,183 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            'En una relación N:M, la clave primaria de la tabla intermedia suele estar compuesta por:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Dos índices únicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El nombre de ambas tablas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Un identificador autoincremental.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Las claves primarias de las tablas relacionadas.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            'Un atributo que depende de otro atributo no clave genera un problema de:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Dependencia transitiva.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Cardinalidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Integridad referencial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Indexación múltiple.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: 'Un índice compuesto resulta útil cuando:',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Varias columnas se usan juntas en condiciones de búsqueda.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Se desea eliminar duplicados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Hay relaciones recursivas en el modelo conceptual.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Se quieren reducir las escrituras en la base de datos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            'La forma normal que elimina dependencias parciales respecto a una clave compuesta es:',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: '1FN.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: '2FN.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: '3FN.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'BCNF.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Cuál de las siguientes afirmaciones describe mejor un modelo NoSQL documental?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Almacena datos estrictamente tabulares.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Requiere claves compuestas obligatoriamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'No permite almacenar relaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Usa documentos JSON/BSON con estructura flexible.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: 'En SQL, la cláusula ORDER BY se utiliza para:',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Organizar los resultados según una o varias columnas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Filtrar datos por un patrón de texto a partir de columnas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Crear índices en columnas específicas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Limitar la cantidad de filas mostradas en pantalla.',
               esCorrecta: false,
             },
           ],

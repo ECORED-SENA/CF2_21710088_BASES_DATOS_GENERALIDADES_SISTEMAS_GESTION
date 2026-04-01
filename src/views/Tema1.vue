@@ -8,7 +8,7 @@
       h1 Fundamentos de modelos de datos 
     .row.justify-content-center.align-items-stretch.g-0.mb-3(data-aos="fade")
       .col-lg-9.bg-color-6.p-4.mb-0.d-flex.align-items-center
-        p.mb-0 Modelar datos no es un ejercicio ornamental; es la actividad que da forma, orden y estructura a la información que una organización necesita para operar. Cada modelo de datos actúa como una “lente conceptual” que permite representar entidades, atributos, relaciones y reglas del negocio con distintos niveles de abstracción.
+        p.mb-0 Modelar datos no es un ejercicio ornamental; es la actividad que da forma, orden y estructura a la información que una organización necesita para operar. Cada modelo de datos actúa como una “lente conceptual” que permite representar <b>entidades, atributos, relaciones y reglas del negocio</b> con distintos niveles de abstracción.
       .col-lg-3.d-flex.align-items-center.justify-content-center
         figure
           img(src="@/assets/curso/tema1/img1.png", data-aos="zoom-in", style="width: 100%").mx-auto
@@ -72,7 +72,7 @@
     //- Inicio Video
     figure.mb-5(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/nHjl83QvSUw?si=PYOSxqLdAk88V5nb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Gro4MYqGLPo?si=UD-f4kGJFZixNbYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     //- Fin Video
     p(data-aos="fade-right") Esta clasificación no es estática. Evoluciona conforme surgen nuevas arquitecturas, necesidades de procesamiento masivo y enfoques híbridos de almacenamiento. En consecuencia, la elección de un modelo de datos depende del contexto organizacional, los requisitos de consistencia y escalabilidad, así como del tipo de información que se desea gestionar.
 </template>

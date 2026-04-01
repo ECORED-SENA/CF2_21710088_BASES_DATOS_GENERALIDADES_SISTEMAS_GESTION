@@ -28,7 +28,7 @@
     .row(data-aos="fade-left")
       .col-sm-6.col-lg.mb-4
         .tarjeta.bg-color-7.p-4.border-0.rounded-4.h-100.d-flex.align-items-center.justify-content-center
-          h3.text-center Flexibilidad elevada
+          h3.text-center ¿Qué entidades existen en el dominio?
       .col-sm-6.col-lg.mb-4
         .tarjeta.bg-color-7.p-4.border-0.rounded-4.h-100.d-flex.align-items-center.justify-content-center
           h3.text-center ¿Qué características describen a cada entidad?
@@ -118,6 +118,7 @@
                       li.d-flex.mb-2        
                         i.fas.fa-check-circle.me-3(style="color:#AD9721")
                         p.mb-0 Las <b>relaciones</b> expresan los vínculos o interacciones entre ellos.
+    p(data-aos="fade-left") El diagrama ER no desarrolla esta historia en lenguaje natural, sino mediante convenciones gráficas estandarizadas. En su forma más básica, se compone de los siguientes elementos:
     .row.justify-content-center.mt-5.mb-5
       .col-lg-auto
         .titulo-sexto.color-acento-contenido
@@ -199,15 +200,15 @@
             li.d-flex.mb-3 
               .lista-ol--cuadro__vineta
                 span A
-              | Revisar la calibración del equipo antes y después de la medición.
+              | Cuántas instancias de una entidad pueden asociarse con instancias de otra.
             li.d-flex 
               .lista-ol--cuadro__vineta
                 span B
-              | Comparar los datos con rangos normales según especie y fase productiva.
+              | Si la relación es obligatoria u opcional.
             li.d-flex 
               .lista-ol--cuadro__vineta
                 span C
-              | Identificar valores atípicos que se alejen significativamente del comportamiento esperado.
+              | Si existe dependencia de existencia entre entidades.
       .col-md-4.mb-0p(data-aos="fade-right")
         figure.mb-0.h-100
           img.w-100.h-100(src='@/assets/curso/tema3/img9.png' style="object-fit: cover;")
@@ -251,7 +252,7 @@
                   )
                   .bloque-texto-g__texto.p-4
                     p.mb-5 Existen diversas notaciones, como Chen, Barker,  <i>Crow’s Foot</i> y UML. Aunque presentan diferencias formales, todas comparten los mismos componentes esenciales: entidades, atributos, relaciones y cardinalidades. En la práctica profesional, la notación  <i>Crow’s Foot</i> es ampliamente utilizada en la documentación técnica asociada a motores como SQL Server y Oracle.
-                p.mb-5(data-aos="fade-left") <b>A continuación, se presenta un ejemplo típico con notación Crow’s Foot aplicado a un sistema de préstamos:</b>
+                p(data-aos="fade-left") <b>A continuación, se presenta un ejemplo típico con notación Crow’s Foot aplicado a un sistema de préstamos:</b>
     .row.justify-content-center.mt-0.mb-5(data-aos="fade-right")
       .col-lg-auto
         .titulo-sexto.color-acento-contenido
@@ -263,9 +264,9 @@
       .col-8
         p.mb-5 <b>En este esquema se identifican dos relaciones fundamentales:</b>
       .row.justify-content-center.align-items-stretch
-        .col-md-4.bg-color-10.p-4.m-2.d-flex.align-items-center.justify-content-center.text-center.text-white
+        .col-md-4.bg-color-10.p-4.m-2.d-flex.align-items-center.justify-content-center.text-center.text-white.rounded-4
           p.mb-5 Un <b>Usuario</b> puede tener muchos <b>Préstamos</b> (relación 1:N).
-        .col-md-4.bg-color-11.p-4.m-2.d-flex.align-items-center.justify-content-center.text-center.text-white
+        .col-md-4.bg-color-11.p-4.m-2.d-flex.align-items-center.justify-content-center.text-center.text-white.rounded-4
           p.mb-5 Un <b>Libro</b> puede aparecer en muchos <b>Préstamos</b>, pero cada <b>Préstamo</b> se asocia a un único <b>Libro</b>.
     p.mb-5(data-aos="fade-left") Más allá del ejemplo concreto, lo relevante es comprender la función analítica del diagrama ER. Sus principales aportes pueden sintetizarse así:
     .row.bg-color-16
@@ -306,14 +307,14 @@
                 h3.text-center Claridad estructural
                 p.text-center Reduce ambigüedades en la interpretación del sistema.
           //- Fin Tarjetas
-    //- Título con imagen
-    .bg-full-width.mt-5
-      .px-4.px-md-5.pb-md-3
-      .titulo-con-imagen.mb-5(data-aos="fade-right")
-        .titulo-con-imagen__fondo
-          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
-          h3.titulo-con-imagen__texto Recomendaciones importantes
-    //- Título con imagen
+          //- Título con imagen
+          .bg-full-width.mt-5
+            .px-4.px-md-5.pb-md-3
+            .titulo-con-imagen(data-aos="fade-right")
+              .titulo-con-imagen__fondo
+                img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+                h3.titulo-con-imagen__texto Recomendaciones importantes
+          //- Título con imagen
     p.mb-5(data-aos="fade-left") Aunque no existe un único estilo correcto, es recomendable aplicar criterios de coherencia y claridad:
     .row.justify-content-center.g-0.align-items-stretch.mb-3
       .col-md-8.col-lg-5.bg-color-6.p-4.p-md-5.d-flex.align-items-center

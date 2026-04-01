@@ -74,7 +74,7 @@
                 .card-body.bg-color-8            
                   | Estructura rígida en niveles jerárquicos definidos.
           //- Fin Tarjetas
-          p.mt-5.mb-5(data-aos="fade-left") Este diseño resulta adecuado cuando la información puede describirse mediante dependencias claramente delimitadas, como ocurre en organigramas institucionales, catálogos de productos o clasificaciones temáticas. Su simplicidad estructural facilita consultas previsibles y rutas de acceso definidas.          
+          p.mt-5.mb-5(data-aos="fade-left") Este diseño resulta adecuado cuando la información puede describirse mediante <b>dependencias claramente delimitadas</b>, como ocurre en organigramas institucionales, catálogos de productos o clasificaciones temáticas. Su simplicidad estructural facilita consultas previsibles y rutas de acceso definidas.          
           .row.justify-content-center.align-items-stretch.g-0.mb-3(data-aos="fade-up")
             .col-md-4.mb-0
               figure.mb-0.h-100

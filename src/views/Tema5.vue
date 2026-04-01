@@ -59,8 +59,7 @@
                   p.text-center.mb-0 <b>Facilitar mantenimiento e integridad referencial</b>
                 .card-body.bg-color-8
                   | Simplifica reglas de negocio y mejora la administración a largo plazo.
-          //- Fin Tarjetas
-          p.mb-5(data-aos="fade-left") Optimizar no significa “hacer más rápido” sin criterio técnico. Implica tomar decisiones estratégicas sustentadas en:
+          //- Fin Tarjetas          
           .row.justify-content-center.g-0.mb-5
             .col-md-3.col-lg-3
                 figure.mb-0
@@ -216,7 +215,7 @@
           p <b>Una dependencia funcional se expresa de la siguiente forma:</b>
           p (NumeroDocumento) → (Nombre, Apellido, FechaNacimiento) 
           p Esto significa que el NúmeroDocumento determina de manera única el Nombre, el Apellido y la Fecha de Nacimiento.
-      p(data-aos="fade-right") Si una dependencia funcional no está alineada con la clave primaria de la tabla, o si revela que ciertos atributos dependen de otro campo que no es clave, es probable que la relación requiera descomposición en entidades separadas. Esta reorganización fortalece la coherencia lógica del modelo y reduce anomalías estructurales.
+    p(data-aos="fade-right") Si una dependencia funcional no está alineada con la clave primaria de la tabla, o si revela que ciertos atributos dependen de otro campo que no es clave, es probable que la relación requiera descomposición en entidades separadas. Esta reorganización fortalece la coherencia lógica del modelo y reduce anomalías estructurales.
 </template>
 
 <script>
