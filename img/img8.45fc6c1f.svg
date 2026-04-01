@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="715" height="340" viewBox="0 0 715 340">
+  <g id="Group_1204803" data-name="Group 1204803" transform="translate(-180 -4997)">
+    <rect id="Rectangle_411972" data-name="Rectangle 411972" width="715" height="340" rx="12" transform="translate(180 4997)" fill="#f4f3ed"/>
+    <rect id="Rectangle_412097" data-name="Rectangle 412097" width="545" height="69" rx="8" transform="translate(265 5055)" fill="#e5e2d3"/>
+    <text id="id_est" transform="translate(287 5104)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">id_est</tspan></text>
+    <text id="Nombre" transform="translate(390 5104)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">nombre</tspan></text>
+    <text id="Ciudad" transform="translate(523 5104)" fill="#d53f8f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">ciudad</tspan></text>
+    <text id="codigo_postal" transform="translate(629 5104)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">codigo_postal</tspan></text>
+    <path id="Path_1254210" data-name="Path 1254210" d="M6505-7617v51.5" transform="translate(-6135 12689)" fill="none" stroke="#b9b6ab" stroke-width="1"/>
+    <rect id="Rectangle_412098" data-name="Rectangle 412098" width="545" height="46" rx="8" transform="translate(265 5026)" fill="#7fe5cf"/>
+    <text id="Detalle_pedido" data-name="Detalle pedido" transform="translate(486 5055)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Detalle pedido</tspan></text>
+    <path id="Path_1254211" data-name="Path 1254211" d="M6505-7617v51.5" transform="translate(-6010 12689)" fill="none" stroke="#b9b6ab" stroke-width="1"/>
+    <path id="Path_1254212" data-name="Path 1254212" d="M6505-7617v51.5" transform="translate(-5905 12689)" fill="none" stroke="#b9b6ab" stroke-width="1"/>
+    <path id="Path_1254213" data-name="Path 1254213" d="M6735-7553.275v9.469h105v-9.469" transform="translate(-6240 12682.275)" fill="none" stroke="#d53f8f" stroke-width="1"/>
+    <rect id="Rectangle_412099" data-name="Rectangle 412099" width="545" height="69" rx="8" transform="translate(265 5212.469)" fill="#e5e2d3"/>
+    <text id="codigos_postales" transform="translate(309 5266.469)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">codigos_postales</tspan></text>
+    <text id="Ciudad-2" data-name="Ciudad" transform="translate(523 5261.469)" fill="#d53f8f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">ciudad</tspan></text>
+    <text id="departamento" transform="translate(629 5261.469)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">departamento</tspan></text>
+    <rect id="Rectangle_412100" data-name="Rectangle 412100" width="545" height="46" rx="8" transform="translate(265 5183.469)" fill="#7fe5cf"/>
+    <text id="Códigos_pedido" transform="translate(486 5212.469)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Códigos_pedido</tspan></text>
+    <path id="Path_1254215" data-name="Path 1254215" d="M6505-7617v51.5" transform="translate(-6010 12846.469)" fill="none" stroke="#b9b6ab" stroke-width="1"/>
+    <path id="Path_1254216" data-name="Path 1254216" d="M6505-7617v51.5" transform="translate(-5905 12846.469)" fill="none" stroke="#b9b6ab" stroke-width="1"/>
+    <path id="Path_1254217" data-name="Path 1254217" d="M6735-7553.275v9.469h105v-9.469" transform="translate(-6240 12839.744)" fill="none" stroke="#d53f8f" stroke-width="1"/>
+    <path id="Path_1254218" data-name="Path 1254218" d="M6849.6-7537.6l-48.611,31.082" transform="translate(-6264 12676.064)" fill="none" stroke="#d53f8f" stroke-width="1"/>
+    <path id="Polygon_10" data-name="Polygon 10" d="M3.5,0,7,6H0Z" transform="matrix(-0.588, -0.809, 0.809, -0.588, 536.13, 5174.8)" fill="#d53f8f"/>
+  </g>
+</svg>

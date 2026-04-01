@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="458" viewBox="0 0 820 458">
+  <g id="Group_1204704" data-name="Group 1204704" transform="translate(-390.051 -5616)">
+    <rect id="Rectangle_411870" data-name="Rectangle 411870" width="820" height="458" rx="12" transform="translate(390.051 5616)" fill="#f4f3ed"/>
+    <text id="Diagrama_Entidad_-_Relación" data-name="Diagrama Entidad - Relación" transform="translate(698.051 5668)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Diagrama Entidad - Relación</tspan></text>
+    <text id="Ejemplo:_Sistema_de_Préstamos" data-name="Ejemplo: Sistema de Préstamos" transform="translate(687.051 5699)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Ejemplo: Sistema de Préstamos</tspan></text>
+    <rect id="Rectangle_412050" data-name="Rectangle 412050" width="175" height="54" rx="8" transform="translate(425.051 5788)" fill="#ffc94a"/>
+    <text id="Usuario" transform="translate(485.051 5821)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Usuario</tspan></text>
+    <rect id="Rectangle_412052" data-name="Rectangle 412052" width="175" height="54" rx="8" transform="translate(969.051 5788)" fill="#ffc94a"/>
+    <text id="Libro" transform="translate(1039.051 5821)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Libro</tspan></text>
+    <text id="Un_usuario_puede_tener_muchos_préstamos" data-name="Un usuario puede tener
+muchos préstamos" transform="translate(516.051 5946)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-82.148" y="0">Un usuario puede tener</tspan><tspan x="-68.906" y="24">muchos préstamos</tspan></text>
+    <text id="Un_libro_aparece_en_muchos_Préstamos_pero_cada_Préstamo_es_para_un_solo_libro_" data-name="Un libro aparece en muchos
+Préstamos (pero cada 
+Préstamo es para un solo libro)" transform="translate(1057.051 5946)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-99.004" y="0">Un libro aparece en muchos</tspan><tspan x="-80.777" y="24">Préstamos (pero cada </tspan><tspan x="-111.023" y="48">Préstamo es para un solo libro)</tspan></text>
+    <text id="Entidad" transform="translate(743.051 5977)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-26.891" y="0">Entidad</tspan></text>
+    <text id="Relación" transform="translate(837.051 5975)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-30.563" y="0">Relación</tspan></text>
+    <text id="Uno_a_muchos_1:N_" data-name="Uno a muchos (1:N)" transform="translate(790.051 6016)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-70.809" y="0">Uno a muchos (1:N)</tspan></text>
+    <path id="Path_1253717" data-name="Path 1253717" d="M-1725.051-5697.191h719" transform="translate(2150.102 11586)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="Path_1253718" data-name="Path 1253718" d="M-1725.051-5734.377v72.573" transform="translate(2220.051 11586)" fill="none" stroke="#000" stroke-width="1"/>
+    <text id="N" transform="translate(510.051 5876)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-5.703" y="0">N</tspan></text>
+    <text id="N-2" data-name="N" transform="translate(510.051 5913)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-5.703" y="0">N</tspan></text>
+    <path id="Path_1253719" data-name="Path 1253719" d="M-1725.051-5734.377v72.573" transform="translate(2781.602 11586)" fill="none" stroke="#000" stroke-width="1"/>
+    <text id="_1" data-name="1" transform="translate(1033.051 5876)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-4.492" y="0">1</tspan></text>
+    <text id="N-3" data-name="N" transform="translate(1089.1 5913)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-5.703" y="0">N</tspan></text>
+    <text id="_1-2" data-name="1" transform="translate(1080.051 5876)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-4.492" y="0">1</tspan></text>
+    <path id="Path_1253720" data-name="Path 1253720" d="M-1177.951-5723.158v14.951" transform="translate(2220.051 11586)" fill="none" stroke="#141414" stroke-width="1"/>
+    <path id="Path_1253721" data-name="Path 1253721" d="M-1177.951-5723.158v14.951" transform="translate(2267.051 11586)" fill="none" stroke="#141414" stroke-width="1"/>
+    <path id="Path_1253722" data-name="Path 1253722" d="M-1177.951-5723.158v14.951" transform="translate(2220.051 11622.982)" fill="none" stroke="#141414" stroke-width="1"/>
+    <path id="Path_1253723" data-name="Path 1253723" d="M-1177.951-5723.158v14.951" transform="translate(2254.001 11622.982)" fill="none" stroke="#141414" stroke-width="1"/>
+    <path id="Path_1253724" data-name="Path 1253724" d="M-1171.194-5704.4l15.945,15.945" transform="translate(2220.051 11586)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="Path_1253725" data-name="Path 1253725" d="M-1171.194-5704.4l15.945,15.945" transform="translate(-4639.596 7052.795) rotate(90)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="Path_1253726" data-name="Path 1253726" d="M-1620.051-5770.5c8.124-.042,369.173,0,369.173,0" transform="translate(2220.051 11586)" fill="none" stroke="#000" stroke-width="1"/>
+    <rect id="Rectangle_412051" data-name="Rectangle 412051" width="128.909" height="128.909" transform="translate(783.551 5723.348) rotate(45)" fill="#ffc94a"/>
+    <text id="Préstamo" transform="translate(755.051 5821)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Préstamo</tspan></text>
+    <path id="Polygon_5" data-name="Polygon 5" d="M8.5,0,17,15H0Z" transform="translate(695.051 5807) rotate(90)"/>
+    <path id="Polygon_6" data-name="Polygon 6" d="M8.5,0,17,15H0Z" transform="translate(969.051 5807) rotate(90)"/>
+    <path id="Path_1253727" data-name="Path 1253727" d="M-1177.951-5723.158v14.951" transform="translate(1967.951 11685.275)" fill="none" stroke="#141414" stroke-width="1"/>
+  </g>
+</svg>

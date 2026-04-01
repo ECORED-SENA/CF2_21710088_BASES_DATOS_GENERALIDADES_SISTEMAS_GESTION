@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="138" viewBox="0 0 820 138">
+  <g id="Group_1204703" data-name="Group 1204703" transform="translate(-390.051 -3030)">
+    <rect id="Rectangle_411783" data-name="Rectangle 411783" width="820" height="138" rx="12" transform="translate(390.051 3030)" fill="#f4f3ed"/>
+    <g id="Rectangle_412046" data-name="Rectangle 412046" transform="translate(475.051 3076)" fill="#5f4f77" stroke="#707070" stroke-width="1">
+      <rect width="210" height="50" rx="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="209" height="49" rx="11.5" fill="none"/>
+    </g>
+    <g id="Rectangle_412047" data-name="Rectangle 412047" transform="translate(915.051 3076)" fill="#5f4f77" stroke="#707070" stroke-width="1">
+      <rect width="210" height="50" rx="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="209" height="49" rx="11.5" fill="none"/>
+    </g>
+    <text id="Entidad" transform="translate(548.051 3107)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">ENTIDAD</tspan></text>
+    <text id="Entidad-2" data-name="Entidad" transform="translate(988.051 3107)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">ENTIDAD</tspan></text>
+    <path id="Path_1253716" data-name="Path 1253716" d="M-1535.051-8506.5h230" transform="translate(2220.051 11608)" fill="none" stroke="#000" stroke-width="1"/>
+    <text id="Relación" transform="translate(767.051 3088)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Relación</tspan></text>
+  </g>
+</svg>
