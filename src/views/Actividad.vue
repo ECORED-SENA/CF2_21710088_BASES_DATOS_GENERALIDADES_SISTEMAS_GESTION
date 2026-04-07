@@ -139,7 +139,7 @@ export default {
             {
               id: 'd',
               texto: 'Ser única y estable.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -153,7 +153,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'La primera forma normal exige:',
+              texto: 'Eliminar dependencias transitivas.',
               esCorrecta: false,
             },
             {
@@ -164,7 +164,7 @@ export default {
             {
               id: 'c',
               texto: 'Que todos los valores sean atómicos.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'd',

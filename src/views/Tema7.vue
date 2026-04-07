@@ -8,7 +8,7 @@
       h1 Introducción al lenguaje de consulta SQL
     .row.justify-content-center.align-items-stretch.g-0.mb-3(data-aos="fade-left")
             .col-lg-10.bg-color-6.p-4.mb-0.d-flex.align-items-center
-              p.mb-0 SQL ( <i>Structured Query Language</i>) surgió en la década de 1970 como un lenguaje declarativo diseñado para consultar y manipular bases de datos relacionales sin requerir programación algorítmica tradicional. Su principal fortaleza radica en que permite expresar <b>qué se desea obtener</b>, mientras el sistema gestor decide <b>cómo ejecutar la operación.</b>
+              p.mb-0 SQL (<i>Structured Query Language</i>) surgió en la década de 1970 como un lenguaje declarativo diseñado para consultar y manipular bases de datos relacionales sin requerir programación algorítmica tradicional. Su principal fortaleza radica en que permite expresar <b>qué se desea obtener</b>, mientras el sistema gestor decide <b>cómo ejecutar la operación.</b>
             .col-lg-2.d-flex.align-items-center.justify-content-center
               figure
                 img(src="@/assets/curso/tema7/img1.png", data-aos="zoom-in", style="width: 100%").mx-auto

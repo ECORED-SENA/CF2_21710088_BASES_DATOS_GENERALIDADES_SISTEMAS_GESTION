@@ -86,7 +86,7 @@
         #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 5.2 Primera, segunda y tercera forma normal 
     //- FIn Tema 5.1
-    p(data-aos="fade-left") En esta etapa el diseño comienza a adquirir forma estructural concreta. Las tres primeras formas normales constituyen el núcleo de la normalización clásica y permiten eliminar redundancias progresivamente, asegurando coherencia lógica entre atributos.
+    p(data-aos="fade-left") En esta etapa, el diseño comienza a adquirir forma estructural concreta. Las tres primeras formas normales constituyen el núcleo de la normalización clásica y permiten eliminar redundancias progresivamente, asegurando coherencia lógica entre atributos.
           //- Título con imagen
           .bg-full-width.mt-5
             .px-4.px-md-5.pb-md-3
@@ -125,7 +125,7 @@
     .row.mb-5.justify-content-center(data-aos="fade-left")
       .col-6
         p.p-3.bg-color-10.text-center.rounded-4.text-white <b>DetallePedido(id_pedido, id_producto, cantidad, nombre_producto)</b>
-    p(data-aos="fade-left") Si en esta tabla se incluye el atributo <b>nombre_producto </b>, surge una inconsistencia lógica. El nombre del producto no depende de la combinación (id_pedido, id_producto), sino exclusivamente de <b>id_producto</b>. Por tanto, ese atributo pertenece a la entidad <b>Producto</b> y no debería almacenarse en la tabla de detalle. Antes de la representación gráfica, es importante precisar que la 2FN elimina dependencias parciales, fortaleciendo la coherencia entre identificadores y atributos descriptivos.
+    p(data-aos="fade-left") Si en esta tabla se incluye el atributo <b>nombre_producto</b>, surge una inconsistencia lógica. El nombre del producto no depende de la combinación (id_pedido, id_producto), sino exclusivamente de <b>id_producto</b>. Por tanto, ese atributo pertenece a la entidad <b>Producto</b> y no debería almacenarse en la tabla de detalle. Antes de la representación gráfica, es importante precisar que la 2FN elimina dependencias parciales, fortaleciendo la coherencia entre identificadores y atributos descriptivos.
     .row.justify-content-center.mt-5
       .titulo-sexto.color-acento-contenido
           h5 Figura 7.

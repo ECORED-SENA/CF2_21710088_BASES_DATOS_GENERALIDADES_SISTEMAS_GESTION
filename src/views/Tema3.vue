@@ -243,8 +243,8 @@
           p.mb-5(data-aos="fade-left") Por ejemplo, un <b>Préstamo</b> no puede existir sin un <b>Usuario</b>, mientras que un <b>Usuario</b> puede existir sin realizar préstamos. Esta condición expresa una regla semántica del dominio antes que una restricción tecnológica. El modelo ER permite formalizar estas dependencias conceptuales con claridad, fortaleciendo la coherencia del diseño previo al modelamiento lógico.
             Separador
             //- Inicio Tema3.1
-            #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-              h2 3.2 Modelo entidad–relación (ER)
+            #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+              h2 3.3 Diagramas entidad–relación
             p.mb-5(data-aos="fade-left") El diagrama entidad–relación (ER) constituye la representación gráfica del modelo conceptual. No es un recurso ornamental, sino una <b>herramienta de análisis y validación.</b> Un diagrama correctamente estructurado permite comprobar la coherencia del sistema sin necesidad de recurrir a descripciones extensas.
                 .bloque-texto-g.bloque-texto-g--inverso.bg-color-1.p-3.p-sm-4.p-md-5.mb-3.mt-5(data-aos="fade-left")
                   .bloque-texto-g__img(
