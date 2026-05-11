@@ -45,9 +45,9 @@ export default {
             hash: 't_1_1',
           },
           {
-            numero: '1.1',
+            numero: '1.2',
             titulo: 'Clasificación de los modelos de datos',
-            hash: 't_1_1',
+            hash: 't_1_2',
           },
         ],
       },
@@ -121,7 +121,7 @@ export default {
           },
           {
             numero: '4.4',
-            titulo: 'Representación física del almacenamient5',
+            titulo: 'Representación física del almacenamiento',
             hash: 't_4_4',
           },
         ],
@@ -412,6 +412,12 @@ export default {
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
           nombre: 'María Carolina Tamayo López ',
           cargo: 'Locución',
           centro:
@@ -426,7 +432,7 @@ export default {
       ],
     },
     {
-      titulo: 'GESTORES DE REPOSITORIO',
+      titulo: 'ALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
           nombre: 'Javier Ricardo Ortiz Puentes',

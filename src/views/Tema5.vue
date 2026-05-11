@@ -108,7 +108,7 @@
     .row.justify-content-center.mt-0.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.color-acento-contenido
-          h5 Figura 6.
+          h5 Figura 5.
           span Ejemplo de aplicación de la 1FN
         figure
           img(src="@/assets/curso/tema5/img6.svg", alt="Diagrama sobre la aplicación de la Primera Forma Normal (1FN) que representa la descomposición de una tabla en dos estructuras separadas para eliminar grupos repetitivos y garantizar atributos atómicos.", style="width: 1200px")
@@ -128,7 +128,7 @@
     p(data-aos="fade-left") Si en esta tabla se incluye el atributo <b>nombre_producto</b>, surge una inconsistencia lógica. El nombre del producto no depende de la combinación (id_pedido, id_producto), sino exclusivamente de <b>id_producto</b>. Por tanto, ese atributo pertenece a la entidad <b>Producto</b> y no debería almacenarse en la tabla de detalle. Antes de la representación gráfica, es importante precisar que la 2FN elimina dependencias parciales, fortaleciendo la coherencia entre identificadores y atributos descriptivos.
     .row.justify-content-center.mt-5
       .titulo-sexto.color-acento-contenido
-          h5 Figura 7.
+          h5 Figura 6.
           span Ejemplo de aplicación de la 2FN
       .col-lg-7.mb-3
         figure
@@ -158,7 +158,7 @@
     p(data-aos="fade-right") Si el atributo <b>ciudad</b> depende de <b>codigo_postal</b>, y este último no es la clave primaria sino un atributo adicional, se configura una <b>dependencia transitiva</b>. En este caso, ciudad depende indirectamente de id_est a través de codigo_postal. Antes de la representación gráfica, es importante aclarar que la 3FN elimina este tipo de dependencias indirectas para fortalecer la coherencia estructural del modelo.
     .row.justify-content-center.mt-5
       .titulo-sexto.color-acento-contenido
-          h5 Figura 8.
+          h5 Figura 7.
           span Ejemplo de aplicación de la 3FN
       .col-lg-7.mb-3
         figure

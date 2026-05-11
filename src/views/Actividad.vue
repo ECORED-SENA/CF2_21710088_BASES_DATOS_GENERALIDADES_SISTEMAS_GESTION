@@ -20,7 +20,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar sobre los fundamentos del modelado conceptual, lógico y físico, la normalización de bases de datos y las operaciones básicas del lenguaje SQL.',
+        '<b> Objetivo:</b> evaluar sobre los fundamentos del modelado conceptual, lógico y físico, la normalización de bases de datos y las operaciones básicas del lenguaje SQL.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',

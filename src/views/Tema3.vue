@@ -20,7 +20,7 @@
       h2 3.1 Concepto de modelo conceptual de datos
     .row.mb-5.justify-content-center.align-items-center
       .col-md-8.col-lg-9
-        p.p-4.bg-color-6(data-aos="fade-left") A diferencia del modelo lógico (donde ya existen tablas, claves primarias, tipos de datos y restricciones formales) el modelo conceptual se concentra en describir qué es relevante en el sistema y cómo se relacionan sus componentes, omitiendo deliberadamente cualquier consideración tecnológica. Un modelo conceptual sólido responde preguntas fundamentales como las siguientes:
+        p.p-4.bg-color-6(data-aos="fade-left") A diferencia del modelo lógico (donde ya existen tablas, claves primarias, tipos de datos y restricciones formales), el modelo conceptual se concentra en describir qué es relevante en el sistema y cómo se relacionan sus componentes, omitiendo deliberadamente cualquier consideración tecnológica. Un modelo conceptual sólido responde preguntas fundamentales como las siguientes:
       .col-md-4.col-lg-3.d-flex.justify-content-center
         figure.mb-0
           img(src='@/assets/curso/tema3/img2.png' style="width: 400px").img-fluid
