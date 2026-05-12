@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="610" height="346" viewBox="0 0 610 346">
+  <g id="Group_1204687" data-name="Group 1204687" transform="translate(-180.051 -2025)">
+    <rect id="Rectangle_411785" data-name="Rectangle 411785" width="610" height="346" rx="12" transform="translate(180.051 2025)" fill="#f4f3ed"/>
+    <rect id="Rectangle_412038" data-name="Rectangle 412038" width="120" height="52" transform="translate(425.051 2055)" fill="#ffc94a"/>
+    <text id="Raíz" transform="translate(470.051 2087)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Raíz</tspan></text>
+    <rect id="Rectangle_412039" data-name="Rectangle 412039" width="120" height="52" transform="translate(265.051 2162)" fill="#7fe5cf"/>
+    <text id="Departamento" transform="translate(275.051 2194)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Departamento</tspan></text>
+    <rect id="Rectangle_412040" data-name="Rectangle 412040" width="120" height="52" transform="translate(580.051 2162)" fill="#7fe5cf"/>
+    <text id="Sucursal" transform="translate(609.051 2194)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Sucursal</tspan></text>
+    <rect id="Rectangle_412041" data-name="Rectangle 412041" width="102" height="52" transform="translate(211.051 2272)" fill="#c1a1f0"/>
+    <text id="Empleado" transform="translate(227.051 2304)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Empleado</tspan></text>
+    <rect id="Rectangle_412042" data-name="Rectangle 412042" width="102" height="52" transform="translate(335.051 2272)" fill="#c1a1f0"/>
+    <text id="Proyecto" transform="translate(355.051 2304)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Proyecto</tspan></text>
+    <rect id="Rectangle_412043" data-name="Rectangle 412043" width="102" height="52" transform="translate(588.051 2272)" fill="#c1a1f0"/>
+    <text id="Registro" transform="translate(608.051 2304)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Registro</tspan></text>
+    <path id="Path_1253493" data-name="Path 1253493" d="M-4931-9446v-25.6h323.107v25.6" transform="translate(5256.051 11608)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="Path_1253494" data-name="Path 1253494" d="M-4770.5-9501v28.661" transform="translate(5256.051 11608)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="Path_1253495" data-name="Path 1253495" d="M-4991.051-9336v-25.339h118.663V-9336" transform="translate(5256.051 11608)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="Path_1253496" data-name="Path 1253496" d="M-4931.72-9394v31.734" transform="translate(5256.051 11608)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="Path_1253497" data-name="Path 1253497" d="M-4931.72-9394v58" transform="translate(5579.877 11608)" fill="none" stroke="#000" stroke-width="1"/>
+  </g>
+</svg>
