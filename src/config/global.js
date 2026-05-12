@@ -432,7 +432,7 @@ export default {
       ],
     },
     {
-      titulo: 'ALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
           nombre: 'Javier Ricardo Ortiz Puentes',
